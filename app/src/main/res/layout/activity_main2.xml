@@ -1,0 +1,2488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+
+    <TextView
+        android:id="@+id/red_1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0.3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.15"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/red_2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/red_1"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.15"
+        app:layout_constraintWidth_percent="0.05"
+
+        />
+
+    <TextView
+        android:id="@+id/red_3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/red_2"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.15"
+        app:layout_constraintWidth_percent="0.05"
+
+        />
+
+    <TextView
+        android:id="@+id/red_4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/red_3"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.15"
+        app:layout_constraintWidth_percent="0.05"
+
+        />
+
+    <TextView
+        android:id="@+id/red_5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/red_4"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.15"
+        app:layout_constraintWidth_percent="0.05"
+
+        />
+
+    <TextView
+        android:id="@+id/red_6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/red_5"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.15"
+        app:layout_constraintWidth_percent="0.05"
+
+        />
+
+    <TextView
+        android:id="@+id/red_7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0.247"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/red_1"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/red_8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/red_7"
+        app:layout_constraintTop_toBottomOf="@id/red_1"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/red_9"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/red_8"
+        app:layout_constraintTop_toBottomOf="@id/red_2"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/red_10"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/red_9"
+        app:layout_constraintTop_toBottomOf="@id/red_3"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/red_11"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/red_10"
+        app:layout_constraintTop_toBottomOf="@id/red_4"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/red_12"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/red_11"
+        app:layout_constraintTop_toBottomOf="@id/red_5"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/red_13"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/red_12"
+        app:layout_constraintTop_toBottomOf="@id/red_6"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/red_14"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/red_13"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.181"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/red_15"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/red_14"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.181"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0.247"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/red_7"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/cafe_1"
+        app:layout_constraintTop_toBottomOf="@id/red_8"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/cafe_2"
+        app:layout_constraintTop_toBottomOf="@id/red_8"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/cafe_3"
+        app:layout_constraintTop_toBottomOf="@id/red_9"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/rosado_1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/cafe_4"
+        app:layout_constraintTop_toBottomOf="@id/red_11"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/rosado_1"
+        app:layout_constraintTop_toBottomOf="@id/red_12"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/rosado_2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/cafe_5"
+        app:layout_constraintTop_toBottomOf="@id/red_13"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/rosado_3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0.247"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cafe_1"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/rosado_3"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cafe_1"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/rosado_3"
+        app:layout_constraintTop_toBottomOf="@id/cafe_1"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/rosado_4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/cafe_7"
+        app:layout_constraintTop_toBottomOf="@id/cafe_1"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/rosado_5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/rosado_4"
+        app:layout_constraintTop_toBottomOf="@id/cafe_1"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/rosado_6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/rosado_5"
+        app:layout_constraintTop_toBottomOf="@id/cafe_1"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/rosado_6"
+        app:layout_constraintTop_toBottomOf="@id/cafe_1"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/rosado_7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/cafe_8"
+        app:layout_constraintTop_toBottomOf="@id/cafe_1"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/rosado_8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/rosado_7"
+        app:layout_constraintTop_toBottomOf="@id/cafe_1"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/rosado_9"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/rosado_8"
+        app:layout_constraintTop_toBottomOf="@id/cafe_1"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_9"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0.1935"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cafe_6"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/rosado_10"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/cafe_9"
+        app:layout_constraintTop_toBottomOf="@id/cafe_6"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_10"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/rosado_10"
+        app:layout_constraintTop_toBottomOf="@id/cafe_6"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_11"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/cafe_10"
+        app:layout_constraintTop_toBottomOf="@id/cafe_6"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/rosado_11"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/cafe_11"
+        app:layout_constraintTop_toBottomOf="@id/cafe_6"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/rosado_12"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/rosado_11"
+        app:layout_constraintTop_toBottomOf="@id/cafe_6"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/rosado_13"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/rosado_12"
+        app:layout_constraintTop_toBottomOf="@id/cafe_6"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_12"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/rosado_13"
+        app:layout_constraintTop_toBottomOf="@id/cafe_6"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/rosado_14"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/cafe_12"
+        app:layout_constraintTop_toBottomOf="@id/cafe_6"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/rosado_15"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/rosado_14"
+        app:layout_constraintTop_toBottomOf="@id/cafe_6"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/rosado_16"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/rosado_15"
+        app:layout_constraintTop_toBottomOf="@id/cafe_6"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_13"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0.1935"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cafe_9"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_14"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/cafe_13"
+        app:layout_constraintTop_toBottomOf="@id/cafe_9"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/rosado_17"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/cafe_14"
+        app:layout_constraintTop_toBottomOf="@id/cafe_9"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/rosado_18"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/rosado_17"
+        app:layout_constraintTop_toBottomOf="@id/cafe_9"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/rosado_19"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/rosado_18"
+        app:layout_constraintTop_toBottomOf="@id/cafe_9"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/rosado_20"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/rosado_19"
+        app:layout_constraintTop_toBottomOf="@id/cafe_9"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_15"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/rosado_20"
+        app:layout_constraintTop_toBottomOf="@id/cafe_9"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_16"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/cafe_15"
+        app:layout_constraintTop_toBottomOf="@id/cafe_9"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_17"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/cafe_16"
+        app:layout_constraintTop_toBottomOf="@id/cafe_9"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_18"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/cafe_17"
+        app:layout_constraintTop_toBottomOf="@id/cafe_9"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/rosado_21"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/cafe_14"
+        app:layout_constraintTop_toBottomOf="@id/rosado_17"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/rosado_22"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/rosado_21"
+        app:layout_constraintTop_toBottomOf="@id/rosado_17"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/rosado_23"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/rosado_22"
+        app:layout_constraintTop_toBottomOf="@id/rosado_17"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/rosado_24"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/rosado_23"
+        app:layout_constraintTop_toBottomOf="@id/rosado_17"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/rosado_25"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/rosado_24"
+        app:layout_constraintTop_toBottomOf="@id/rosado_17"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/rosado_26"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/rosado_25"
+        app:layout_constraintTop_toBottomOf="@id/rosado_17"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/rosado_27"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/rosado_26"
+        app:layout_constraintTop_toBottomOf="@id/rosado_17"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_19"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/cafe_20"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rosado_21"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_20"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/cafe_14"
+        app:layout_constraintTop_toBottomOf="@id/rosado_21"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/red_16"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/cafe_20"
+        app:layout_constraintTop_toBottomOf="@id/rosado_21"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_21"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/red_16"
+        app:layout_constraintTop_toBottomOf="@id/rosado_21"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_22"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/cafe_21"
+        app:layout_constraintTop_toBottomOf="@id/rosado_21"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_23"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/cafe_22"
+        app:layout_constraintTop_toBottomOf="@id/rosado_21"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_24"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/cafe_14"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cafe_19"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_25"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/cafe_20"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cafe_19"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_26"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/cafe_25"
+        app:layout_constraintTop_toBottomOf="@id/cafe_20"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/red_17"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/cafe_26"
+        app:layout_constraintTop_toBottomOf="@id/cafe_20"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_27"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/red_17"
+        app:layout_constraintTop_toBottomOf="@id/cafe_20"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_28"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/cafe_27"
+        app:layout_constraintTop_toBottomOf="@id/cafe_20"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/red_18"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/cafe_28"
+        app:layout_constraintTop_toBottomOf="@id/cafe_20"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_29"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/red_18"
+        app:layout_constraintTop_toBottomOf="@id/cafe_20"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_30"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/cafe_29"
+        app:layout_constraintTop_toBottomOf="@id/cafe_20"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_31"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/cafe_30"
+        app:layout_constraintTop_toBottomOf="@id/cafe_20"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_32"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/cafe_33"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cafe_24"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_33"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/cafe_14"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cafe_24"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_34"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/cafe_33"
+        app:layout_constraintTop_toBottomOf="@id/cafe_24"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_35"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/cafe_34"
+        app:layout_constraintTop_toBottomOf="@id/cafe_24"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/red_19"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/cafe_35"
+        app:layout_constraintTop_toBottomOf="@id/cafe_24"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/red_20"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/red_19"
+        app:layout_constraintTop_toBottomOf="@id/cafe_24"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/red_21"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/red_20"
+        app:layout_constraintTop_toBottomOf="@id/cafe_24"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/red_22"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/red_21"
+        app:layout_constraintTop_toBottomOf="@id/cafe_24"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_36"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/red_22"
+        app:layout_constraintTop_toBottomOf="@id/cafe_24"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_37"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/cafe_36"
+        app:layout_constraintTop_toBottomOf="@id/cafe_24"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_38"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/cafe_37"
+        app:layout_constraintTop_toBottomOf="@id/cafe_24"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_39"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/cafe_38"
+        app:layout_constraintTop_toBottomOf="@id/cafe_24"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/rosado_28"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/cafe_33"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cafe_32"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/rosado_29"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/rosado_28"
+        app:layout_constraintTop_toBottomOf="@id/cafe_32"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_40"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/rosado_29"
+        app:layout_constraintTop_toBottomOf="@id/cafe_32"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/red_23"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/cafe_40"
+        app:layout_constraintTop_toBottomOf="@id/cafe_32"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/rosado_30"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/red_23"
+        app:layout_constraintTop_toBottomOf="@id/cafe_32"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/red_24"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/rosado_30"
+        app:layout_constraintTop_toBottomOf="@id/cafe_32"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/red_25"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/red_24"
+        app:layout_constraintTop_toBottomOf="@id/cafe_32"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/rosado_31"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/red_25"
+        app:layout_constraintTop_toBottomOf="@id/cafe_32"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/red_26"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/rosado_31"
+        app:layout_constraintTop_toBottomOf="@id/cafe_32"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_41"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/red_26"
+        app:layout_constraintTop_toBottomOf="@id/cafe_32"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/rosado_32"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/cafe_41"
+        app:layout_constraintTop_toBottomOf="@id/cafe_32"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/rosado_33"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/rosado_32"
+        app:layout_constraintTop_toBottomOf="@id/cafe_32"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/rosado_34"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/cafe_33"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rosado_28"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/rosado_35"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/rosado_34"
+        app:layout_constraintTop_toBottomOf="@id/rosado_28"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/rosado_36"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/rosado_35"
+        app:layout_constraintTop_toBottomOf="@id/rosado_28"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/red_27"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/rosado_36"
+        app:layout_constraintTop_toBottomOf="@id/rosado_28"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/red_28"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/red_27"
+        app:layout_constraintTop_toBottomOf="@id/rosado_28"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/red_29"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/red_28"
+        app:layout_constraintTop_toBottomOf="@id/rosado_28"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/red_30"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/red_29"
+        app:layout_constraintTop_toBottomOf="@id/rosado_28"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/red_31"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/red_30"
+        app:layout_constraintTop_toBottomOf="@id/rosado_28"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/red_32"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/red_31"
+        app:layout_constraintTop_toBottomOf="@id/rosado_28"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/rosado_37"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/red_32"
+        app:layout_constraintTop_toBottomOf="@id/rosado_28"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/rosado_38"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/rosado_37"
+        app:layout_constraintTop_toBottomOf="@id/rosado_28"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/rosado_39"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/rosado_38"
+        app:layout_constraintTop_toBottomOf="@id/rosado_28"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/rosado_40"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/cafe_33"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rosado_34"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/rosado_41"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/rosado_40"
+        app:layout_constraintTop_toBottomOf="@id/rosado_34"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/red_33"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/rosado_41"
+        app:layout_constraintTop_toBottomOf="@id/rosado_34"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/red_34"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/red_33"
+        app:layout_constraintTop_toBottomOf="@id/rosado_34"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/red_35"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/red_34"
+        app:layout_constraintTop_toBottomOf="@id/rosado_34"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/red_35"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/red_34"
+        app:layout_constraintTop_toBottomOf="@id/rosado_34"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/red_36"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/red_35"
+        app:layout_constraintTop_toBottomOf="@id/rosado_34"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/red_37"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/red_36"
+        app:layout_constraintTop_toBottomOf="@id/rosado_34"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/red_38"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/red_37"
+        app:layout_constraintTop_toBottomOf="@id/rosado_34"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/red_39"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/red_38"
+        app:layout_constraintTop_toBottomOf="@id/rosado_34"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/red_40"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/red_39"
+        app:layout_constraintTop_toBottomOf="@id/rosado_34"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/rosado_42"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/red_40"
+        app:layout_constraintTop_toBottomOf="@id/rosado_34"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/rosado_43"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/pink"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/rosado_42"
+        app:layout_constraintTop_toBottomOf="@id/rosado_34"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/red_41"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/rosado_41"
+        app:layout_constraintTop_toBottomOf="@id/red_33"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/red_42"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/red_41"
+        app:layout_constraintTop_toBottomOf="@id/red_33"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/red_43"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/red_42"
+        app:layout_constraintTop_toBottomOf="@id/red_33"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/red_44"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/red_37"
+        app:layout_constraintTop_toBottomOf="@id/red_38"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/red_45"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/red_44"
+        app:layout_constraintTop_toBottomOf="@id/red_38"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/red_46"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/red"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/red_45"
+        app:layout_constraintTop_toBottomOf="@id/red_38"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_42"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/rosado_40"
+        app:layout_constraintTop_toBottomOf="@id/red_41"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_43"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/cafe_42"
+        app:layout_constraintTop_toBottomOf="@id/red_41"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_44"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/cafe_43"
+        app:layout_constraintTop_toBottomOf="@id/red_41"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_45"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/red_38"
+        app:layout_constraintTop_toBottomOf="@id/red_44"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_46"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/cafe_45"
+        app:layout_constraintTop_toBottomOf="@id/red_44"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_47"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/cafe_46"
+        app:layout_constraintTop_toBottomOf="@id/red_44"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_48"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/rosado_41"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cafe_42"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_49"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/cafe_48"
+        app:layout_constraintTop_toBottomOf="@id/cafe_42"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_50"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/cafe_49"
+        app:layout_constraintTop_toBottomOf="@id/cafe_42"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_51"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/cafe_50"
+        app:layout_constraintTop_toBottomOf="@id/cafe_42"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_52"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/red_38"
+        app:layout_constraintTop_toBottomOf="@id/cafe_46"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_53"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/cafe_52"
+        app:layout_constraintTop_toBottomOf="@id/cafe_46"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_54"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/cafe_53"
+        app:layout_constraintTop_toBottomOf="@id/cafe_46"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+    <TextView
+        android:id="@+id/cafe_55"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/maroon"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHeight_percent="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@id/cafe_54"
+        app:layout_constraintTop_toBottomOf="@id/cafe_46"
+
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent="0.05" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
